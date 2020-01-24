@@ -1,0 +1,24 @@
+{
+  "name": "notes-app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "fs": "0.0.1-security",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "validator": "^12.1.0",
+    "yargs": "^15.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
